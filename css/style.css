@@ -1,6 +1,19 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #00000;
+  font-size: 16px;
+  line-height:normal;
+
+}
+hl {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+}
+p {
+  font-size: 18px;
 }
 
 nav {
@@ -8,6 +21,10 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+.nav-link a{
+  color: #212121;
 }
 
 .logo {
@@ -42,6 +59,10 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +70,7 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+a:hover {
+ color: #008BE1;
 }
